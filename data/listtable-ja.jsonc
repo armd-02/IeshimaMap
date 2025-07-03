@@ -1,0 +1,31 @@
+{
+    "list": {
+        "columns": {
+            "common": [
+                {
+                    "id": "osmid",
+                    "hidden": true
+                },
+                {
+                    "id": "category",
+                    "name": "カテゴリ",
+                },
+                {
+                    "id": "title",
+                    "name": "施設名",
+                    "width": "60%"
+                }
+            ],
+            "poiFields": [
+                "id",
+                "#category",
+                "name"
+            ],
+            "actFields": [ //#付きはOSMタグ、ただし#categoryのみ内部判定結果
+                "#id", // 最初の列は#id固定
+                "#category",
+                "title"
+            ]
+        }
+    }
+}

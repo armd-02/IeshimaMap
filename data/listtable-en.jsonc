@@ -1,0 +1,32 @@
+{
+    "list": {
+        "columns": {
+            "common": [
+                {
+                    "id": "osmid",
+                    "hidden": true
+                },
+                {
+                    "id": "name",
+                    "name": "name",
+                    "width": "60%"
+                },
+                {
+                    "id": "category",
+                    "name": "category",
+                    "hidden": true
+                }
+            ],
+            "poiFields": [
+                "id",
+                "category",
+                "name"
+            ],
+            "actFields": [
+                "#id",
+                "#category",
+                "title"
+            ]
+        }
+    }
+}
