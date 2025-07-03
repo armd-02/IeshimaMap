@@ -7,19 +7,15 @@
                 "nwr[\"craft\"]",
                 "nwr[\"tourism\"]",
                 "nwr[\"office\"]",
-                "node[\"railway\"=\"station\"]",
-                "nwr[\"leisure\"]"
+                "nwr[\"leisure\"]",
+                "node[\"railway\"]"
             ],
             "tags": [
-                "shop",
-                "amenity!=parking",
-                "amenity!=vending_machine",
-                "amenity!=parking_entrance",
-                "amenity!=bench",
-                "craft",
-                "office",
                 "amenity",
+                "shop",
+                "craft",
                 "tourism",
+                "office",
                 "leisure",
                 "railway"
             ],
