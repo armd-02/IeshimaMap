@@ -31,6 +31,10 @@
         "ja": "",
         "en": ""
     },
+    "develop_site": {
+        "ja": "家島試験マップの開発サイトへ",
+        "en": "Ieshima Test Map development site"
+    },
     "activities": {
         "ja": "活動履歴",
         "en": "Activities"

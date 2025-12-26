@@ -35,6 +35,7 @@
             "dojo": "道場",
             "drinking_water": "給水所",
             "exhibition_centre": "パビリオン",
+            "events_venue": "イベント施設",
             "fast_food": "ファーストフード",
             "ferry_terminal": "フェリーターミナル",
             "fire_station": "消防署",
@@ -119,6 +120,7 @@
         "craft": {
             "brewery": "醸造所",
             "carpenter": "工務店",
+            "caterer": "弁当店",
             "confectionery": "菓子工房",
             "handicraft": "手工芸",
             "lighting": "照明工房",
@@ -188,8 +190,10 @@
             "department_store": "百貨店",
             "doityourself": "ホームセンター",
             "dry_cleaning": "クリーニング店",
+            "electrical": "電気店（工具、部品類）",
             "electronics": "家電販売屋",
             "farm": "農場直売店",
+            "fishing": "釣具店",
             "florist": "花屋",
             "frozen_food": "冷凍食品専門店",
             "funeral_directors": "葬儀社",
@@ -347,11 +351,16 @@
         },
         "man_made": {
             "bridge": "橋",
-            "torii": "鳥居",
+            "ceremonial_gate": "儀礼門",
+            "flagpole": "旗竿",
+            "fuel_pump": "燃料ポンプ",
             "lamp": "灯籠",
+            "lighthouse": "灯台",
+            "torii": "鳥居",
             "tower": "塔/鐘楼",
             "surveillance": "監視機器",
             "water_tap": "手洗い場",
+            "water_well": "井戸",
             "works": "工場"
         },
         "landuse": {
@@ -377,7 +386,8 @@
             "pitch": "グラウンド",
             "park": "公園",
             "playground": "児童公園",
-            "swimming_pool": "水泳プール"
+            "swimming_pool": "水泳プール",
+            "sauna": "サウナ"
         },
         "railway": {
             "station": "鉄道駅"
@@ -437,6 +447,11 @@
                 "streetart": "ストリートアート",
                 "street_art": "ストリートアート",
                 "azulejo": "アズレージョ"
+            }
+        },
+        "man_made": {
+            "ceremonial_gate": {
+                "torii": "鳥居"
             }
         },
         "healthcare": {

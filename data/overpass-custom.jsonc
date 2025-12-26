@@ -8,7 +8,8 @@
                 "nwr[\"tourism\"]",
                 "nwr[\"office\"]",
                 "nwr[\"leisure\"]",
-                "node[\"railway\"]"
+                "node[\"railway\"]",
+                "nwr[\"man_made\"]"
             ],
             "tags": [
                 "amenity",
@@ -17,7 +18,10 @@
                 "tourism",
                 "office",
                 "leisure",
-                "railway"
+                "railway",
+                "man_made",
+                "man_made!=breakwater",
+                "man_made!=pier"
             ],
             "expression": {
                 "poiView": true, // true時はアイコン表示

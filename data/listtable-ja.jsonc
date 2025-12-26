@@ -7,24 +7,32 @@
                     "hidden": true
                 },
                 {
-                    "id": "category",
-                    "name": "カテゴリ",
+                    "id": "ref",
+                    "name": "位置",
+                    "width": "20%"
                 },
                 {
-                    "id": "title",
-                    "name": "施設名",
-                    "width": "60%"
+                    "id": "name",
+                    "name": "名前",
+                    "width": "80%"
+                },
+                {
+                    "id": "reservation",
+                    "name": "予約",
+                    "hidden": true
                 }
             ],
             "poiFields": [
                 "id",
-                "#category",
-                "name"
+                "ref",
+                "name",
+                "reservation"
             ],
             "actFields": [ //#付きはOSMタグ、ただし#categoryのみ内部判定結果
-                "#id", // 最初の列は#id固定
-                "#category",
-                "title"
+                "id",
+                "#ref",
+                "memo",
+                "#reservation"
             ]
         }
     }

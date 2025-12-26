@@ -35,6 +35,7 @@
             "dojo": "dojo",
             "drinking_water": "drinking water",
             "exhibition_centre": "exhibition centre/Pavilion",
+            "events_venue": "events venue",
             "fast_food": "fast food",
             "ferry_terminal": "ferry terminal",
             "fire_station": "fire station",
@@ -119,6 +120,7 @@
         "craft": {
             "brewery": "brewery",
             "carpenter": "carpenter",
+            "caterer": "caterer",
             "confectionery": "confectionery",
             "handicraft": "handicraft",
             "lighting": "craft lighting",
@@ -188,8 +190,10 @@
             "department_store": "department store",
             "doityourself": "doityourself",
             "dry_cleaning": "dry cleaning",
+            "electrical": "electrical(parts,tools)",
             "electronics": "electronic",
             "farm": "farm",
+            "fishing": "fishing",
             "florist": "florist",
             "frozen_food": "frozen food",
             "funeral_directors": "cemetery",
@@ -347,11 +351,16 @@
         },
         "man_made": {
             "bridge": "bridge",
-            "torii": "torii",
+            "ceremonial_gate": "ceremonial gate",
+            "flagpole": "flagpole",
+            "fuel_pump": "fuel_pump",
             "lamp": "lantern",
+            "lighthouse": "lighthouse",
+            "torii": "torii",
             "tower": "tower",
             "surveillance": "surveillance",
             "water_tap": "water tap",
+            "water_well": "water well",
             "works": "works"
         },
         "landuse": {
@@ -377,7 +386,8 @@
             "pitch": "pitch",
             "park": "park",
             "playground": "playground",
-            "swimming_pool": "swimming pool"
+            "swimming_pool": "swimming pool",
+            "sauna": "sauna"
         },
         "railway": {
             "station": "station"
@@ -437,6 +447,11 @@
                 "streetart": "streetart",
                 "street_art": "street_art",
                 "azulejo": "azulejo"
+            }
+        },
+        "man_made": {
+            "ceremonial_gate": {
+                "torii": "torii"
             }
         },
         "healthcare": {

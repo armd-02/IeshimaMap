@@ -17,8 +17,10 @@
         ]
     },
     "tile": {
-        "OSMFJ": {
-            "style": "./tiles/osmfj_nopoi.json"
+        "OSMFJ_NOPOI": {
+            "style": "./tiles/osmfj_nopoi.json",
+            "name": "最新地図(OpenStreetMap)",
+            "skip": false
         },
         "OSM_Standard": {
             "style": {
@@ -42,10 +44,40 @@
                         "source": "rtile"
                     }
                 ]
-            }
+            },
+            "name": "OpenStreetMap標準地図(2D)",
+            "skip": false
         },
-        "planet": { // for planet globe
-            "style": "./tiles/osmfj_nopoi.json"
+        "GSI_seamlessphoto": {
+            "style": {
+                "version": 8,
+                "sources": {
+                    "rtile": {
+                        "type": "raster",
+                        "tiles": [
+                            "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/{z}/{x}/{y}.jpg"
+                        ],
+                        "tileSize": 256,
+                        "maxzoom": 18,
+                        "attribution": "<a href='https://www.gsi.go.jp/kikakuchousei/kikakuchousei40182.html'>全国最新写真（シームレス） | &copy OpenStreetMap contributors</a>"
+                    }
+                },
+                "layers": [
+                    {
+                        "id": "raster-tiles",
+                        "type": "raster",
+                        "source": "rtile"
+                    }
+                ],
+                "glyphs": "https://tile.openstreetmap.jp/fonts/{fontstack}/{range}.pbf"
+            },
+            "name": "地理院 全国最新写真（シームレス）",
+            "skip": false
+        },
+        "miniMap": { // for planet globe
+            "style": "./tiles/osmfj_nopoi.json",
+            "name": "Planet globe",
+            "skip": true
         }
     },
     "menu_list": {

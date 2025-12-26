@@ -1,15 +1,15 @@
 {
     "act_add": {
-        "ja": "追加",
-        "en": "Add"
+        "ja": "情報追加",
+        "en": "Add Information"
     },
     "act_edit": {
-        "ja": "編集",
-        "en": "Edit"
+        "ja": "情報編集",
+        "en": "Edit Information"
     },
     "act_save": {
-        "ja": "保存",
-        "en": "Save"
+        "ja": "サーバーへ保存",
+        "en": "Save to Server"
     },
     "act_upload": {
         "ja": "アップロード",
@@ -143,6 +143,10 @@
         "ja": "(出典/記事: Wikipedia)",
         "en": "(Source/Article: Wikipedia)"
     },
+    "defaultSelect": {
+        "ja": "🌏おまかせ",
+        "en": "(default)"
+    },
     "undefined": {
         "ja": "(名称不明)",
         "en": "(name unknown)"
@@ -178,6 +182,30 @@
     "import_visited": {
         "ja": "訪問済みデータを取り込む",
         "en": "Import visited data"
+    },
+    "visited_filter": {
+        "ja": "訪問済みフィルター",
+        "en": "Filter by visited"
+    },
+    "visited_filter_off": {
+        "ja": "無効",
+        "en": "Off"
+    },
+    "visited_filter_visited": {
+        "ja": "訪問済み",
+        "en": "Visited"
+    },
+    "visited_filter_unvisited": {
+        "ja": "未訪問",
+        "en": "Unvisited"
+    },
+    "favorite": {
+        "ja": "お気に入り",
+        "en": "Favorite"
+    },
+    "favorite_filter": {
+        "ja": "お気に入りのみ表示",
+        "en": "Filter by favorite"
     },
     "reservation_yes": {
         "ja": "要予約",
@@ -270,5 +298,9 @@
     "changing_table": {
         "ja": "おむつ替え台",
         "en": "Diaper changing station"
+    },
+    "searchKeyword": {
+        "ja": "キーワード検索",
+        "en": "searchKeyword"
     }
 }
