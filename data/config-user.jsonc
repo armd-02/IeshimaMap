@@ -53,7 +53,13 @@
         "poiFilter": "", // listTable更新時 all:全て / filter:絞り込み / "":非連動
         "poiZoom": {
             // アイコンの前後位置は後ろの方が手前になる
-            "IeshimaMap": 12,
+            "TouristSpot": 12,
+            "Restaurant": 12,
+            "VendingMachine": 12,
+            "Toilet": 12,
+            "TouristInformation": 12,
+            "Transportation": 12,
+            "Store": 12,
             "activity": 12
         },
         "editZoom": {
@@ -63,13 +69,23 @@
     },
     "selectItem": { // 選択リストの内容を手動記載 / 空の時は "" とする
         "default": "",
-        "menu": "",
-        "action": "" // ChangeMap:背景地図切り替え / ChangePOI:メニューに会ったOverpass名のPOIを表示
+        "menu": //"",
+        {
+            "🏢観光地": "TouristSpot",
+            "🍴飲食店": "Restaurant",
+            "🧃自動販売機": "VendingMachine",
+            "🚻トイレ": "Toilet",
+            "💁観光案内": "TouristInformation",
+            "🚲移動手段": "Transportation",
+            "🛍️商店": "Store",
+            "(アイコン非表示)": "nopoi"
+        },
+        "action": "ChangePoi" // ChangeMap:背景地図切り替え / ChangePoi:メニューに会ったOverpass名のPOIを表示
     },
     "listTable": {
         "backgroundImage": "./image/bgimage.png",
         "height": 0.6, // リスト時の高さ(1を最大とした割合)
-        "category": "tags", // カテゴリ選択 / activity:アクティビティリスト / tags:タグ / menu: タグベースの手動カテゴリ
+        "category": "menu", // カテゴリ選択 / activity:アクティビティリスト / tags:タグ / menu: タグベースの手動カテゴリ
         "target": "targets", // targets: / activity:google sheetsを表示 
         "allActs": true, // true: 全てのactivityを常に表示 / false: 画面内のActivityのみ表示
         "playback": {

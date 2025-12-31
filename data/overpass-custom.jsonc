@@ -1,39 +1,120 @@
 {
     "osm": {
-        "IeshimaMap": {
+        "TouristSpot": {
             "overpass": [
                 "nwr[\"amenity\"]",
-                "nwr[\"shop\"]",
-                "nwr[\"craft\"]",
-                "nwr[\"tourism\"]",
-                "nwr[\"office\"]",
                 "nwr[\"leisure\"]",
-                "node[\"railway\"]",
-                "nwr[\"man_made\"]"
+                "nwr[\"tourism\"]",
+                "nwr[\"historic\"]"
             ],
             "tags": [
-                "amenity",
-                "shop",
-                "craft",
-                "tourism",
-                "office",
-                "leisure",
-                "railway",
-                "man_made",
-                "man_made!=breakwater",
-                "man_made!=pier"
+                "amenity=place_of_worship",
+                "leisure=beach_resort",
+                "tourism=artwork",
+                "historic=wayside_shrine"
             ],
             "expression": {
                 "poiView": true, // true時はアイコン表示
+                "viewArea": true,
                 "stroke": "#A06060",
                 "stroke-width": 1,
                 "fill-opacity": 0.5
-            },
-            "titles": [
-                "name",
-                "operator",
-                "note"
-            ]
+            }
+        },
+        "Restaurant": {
+            "overpass": [
+                "nwr[\"amenity\"]"
+            ],
+            "tags": [
+                "amenity=cafe",
+                "amenity=restaurant",
+                "amenity=fast_food"
+            ],
+            "expression": {
+                "poiView": true, // true時はアイコン表示
+                "viewArea": true,
+                "stroke": "#A06060",
+                "stroke-width": 1,
+                "fill-opacity": 0.5
+            }
+        },
+        "VendingMachine": {
+            "overpass": [
+                "nwr[\"amenity\"]"
+            ],
+            "tags": [
+                "amenity=vending_machine"
+            ],
+            "expression": {
+                "poiView": true, // true時はアイコン表示
+                "viewArea": true,
+                "stroke": "#A06060",
+                "stroke-width": 1,
+                "fill-opacity": 0.5
+            }
+        },
+        "Toilet": {
+            "overpass": [
+                "nwr[\"amenity\"]"
+            ],
+            "tags": [
+                "amenity=toilets"
+            ],
+            "expression": {
+                "poiView": true, // true時はアイコン表示
+                "viewArea": true,
+                "stroke": "#A06060",
+                "stroke-width": 1,
+                "fill-opacity": 0.5
+            }
+        },
+        "TouristInformation": {
+            "overpass": [
+                "nwr[\"tourism\"]"
+            ],
+            "tags": [
+                "tourism=information"
+            ],
+            "expression": {
+                "poiView": true, // true時はアイコン表示
+                "viewArea": true,
+                "stroke": "#A06060",
+                "stroke-width": 1,
+                "fill-opacity": 0.5
+            }
+        },
+        "Transportation": {
+            "overpass": [
+                "nwr[\"amenity\"]",
+                "nwr[\"highway\"]"
+            ],
+            "tags": [
+                "amenity=ferry_terminal",
+                "amenity=bicycle_rental",
+                "highway=bus_stop"
+            ],
+            "expression": {
+                "poiView": true, // true時はアイコン表示
+                "viewArea": true,
+                "stroke": "#A06060",
+                "stroke-width": 1,
+                "fill-opacity": 0.5
+            }
+        },
+        "Store": {
+            "overpass": [
+                "nwr[\"shop\"]"
+            ],
+            "tags": [
+                "shop"
+            ],
+            "expression": {
+                "poiView": true, // true時はアイコン表示
+                "viewArea": true,
+                "stroke": "#A06060",
+                "stroke-width": 1,
+                "fill-opacity": 0.5
+            }
         }
     }
 }

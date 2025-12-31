@@ -1,19 +1,19 @@
 {
     "site_title": {
-        "ja": "家島試験マップ",
+        "ja": "いえしまてくてくマップ",
         "en": "Ieshima Test Map"
     },
     "site_subtitle": {
-        "ja": "家島試験マップテスト会",
-        "en": "Ieshima Test Map Group."
+        "ja": "流通科学大学 辻本ゼミ",
+        "en": "Tsujimoto Seminar, University of Marketing and Distribution Sciences"
     },
     "about": {
-        "ja": "家島試験マップとは",
-        "en": "about Ieshima Test Map by map"
+        "ja": "いえしまてくてくマップとは",
+        "en": "about Ieshima Tekuteku Map."
     },
     "about_message": {
-        "ja": "試験マップです。",
-        "en": "This is a map of Test"
+        "ja": "いえしまてくてくマップです。",
+        "en": "This is a map of Ieshima Tekuteku Map"
     },
     "owner": {
         "ja": "プロジェクトのブログ・サイトへ",
@@ -32,8 +32,8 @@
         "en": ""
     },
     "develop_site": {
-        "ja": "家島試験マップの開発サイトへ",
-        "en": "Ieshima Test Map development site"
+        "ja": "いえしまてくてくマップの開発サイトへ",
+        "en": "Ieshima Tekuteku Map development site"
     },
     "activities": {
         "ja": "活動履歴",

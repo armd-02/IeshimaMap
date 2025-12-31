@@ -7,32 +7,25 @@
                     "hidden": true
                 },
                 {
-                    "id": "ref",
-                    "name": "ref",
-                    "width": "20%"
+                    "id": "category",
+                    "name": "category",
+                    "width": "40%"
                 },
                 {
                     "id": "name",
                     "name": "name",
-                    "width": "80%"
-                },
-                {
-                    "id": "memo",
-                    "name": "reservation",
-                    "hidden": true
+                    "width": "60%"
                 }
             ],
             "poiFields": [
                 "id",
-                "ref",
-                "name",
-                "reservation"
+                "#category",
+                "name"
             ],
-            "actFields": [
+            "actFields": [ //#付きはOSMタグ、ただし#categoryのみ内部判定結果
                 "id",
-                "#ref",
-                "memo",
-                "#reservation"
+                "#category",
+                "title"
             ]
         }
     }
