@@ -53,6 +53,21 @@
                 "fill-opacity": 0.5
             }
         },
+        "Park": {
+            "overpass": [
+                "nwr[\"leisure\"]"
+            ],
+            "tags": [
+                "leisure=park"
+            ],
+            "expression": {
+                "poiView": true, // true時はアイコン表示
+                "viewArea": true,
+                "stroke": "#A06060",
+                "stroke-width": 1,
+                "fill-opacity": 0.5
+            }
+        },
         "Toilet": {
             "overpass": [
                 "nwr[\"amenity\"]"
@@ -117,4 +132,5 @@
             }
         }
     }
+
 }
