@@ -74,6 +74,7 @@
             "🏢観光地": "TouristSpot",
             "🍴飲食店": "Restaurant",
             "🧃自動販売機": "VendingMachine",
+            "🛝公園": "Park",
             "🚻トイレ": "Toilet",
             "💁観光案内": "TouristInformation",
             "🚲移動手段": "Transportation",
@@ -211,4 +212,5 @@
             }
         ]
     }
+
 }
