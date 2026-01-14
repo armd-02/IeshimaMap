@@ -56,6 +56,7 @@
             "TouristSpot": 12,
             "Restaurant": 12,
             "VendingMachine": 12,
+            "Park": 12,
             "Toilet": 12,
             "TouristInformation": 12,
             "Transportation": 12,
@@ -214,3 +215,4 @@
     }
 
 }
+
