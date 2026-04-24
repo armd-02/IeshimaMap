@@ -6,12 +6,14 @@
                 "nwr[\"leisure\"]",
                 "nwr[\"tourism\"]",
                 "nwr[\"historic\"]"
+                "nwr[\"leisure\"]"
             ],
             "tags": [
                 "amenity=place_of_worship",
                 "leisure=beach_resort",
                 "tourism=artwork",
                 "historic=wayside_shrine"
+                "leisure=park"
             ],
             "expression": {
                 "poiView": true, // true時はアイコン表示
