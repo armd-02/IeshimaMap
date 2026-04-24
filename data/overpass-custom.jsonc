@@ -9,7 +9,7 @@
             ],
             "tags": [
                 "amenity=place_of_worship",
-                "leisure=park"
+                "leisure=park",
                 "leisure=beach_resort",
                 "tourism=artwork",
                 "historic=wayside_shrine"
