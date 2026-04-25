@@ -145,18 +145,14 @@ class CMapMaker {
                             let keyv = Object.entries(UrlParams).find(([key, value]) => value !== undefined)
                             let param = keyv[0] + "/" + keyv[1]
                             let subparam = param.split(".") // split child elements(.)
-                            let osm = poiCont.get_osmid(subparam[0])
-                            if (osm !== undefined) {
-                                let geojson = osm.geojson
-                                cMapMaker.viewDetail(subparam[0], subparam[1]).then(() => {
-                                    if (geojson !== undefined) {
-                                        geoCont.flashPolygon(geojson)
-                                        geoCont.writePoiCircle(geojson)
-                                    }
-                                })
-                            } else {
-                                console.log(`init: Not Found OSM Data ${subparam[0]}`)
-                            }
+                            let osmdata = poiCont.get_osmid(subparam[0])
+                            let geojson = osmdata !== undefined ? osmdata.geojson : undefined
+                            cMapMaker.viewDetail(subparam[0], subparam[1]).then(() => {
+                                if (geojson !== undefined) {
+                                    geoCont.flashPolygon(geojson)
+                                    geoCont.writePoiCircle(geojson)
+                                }
+                            })
                         }
                     })
                 }
@@ -425,6 +421,7 @@ class CMapMaker {
             }
 
             if (osmid == "" || osmid == undefined) {    // OSMIDが空の時はクリアして終了
+                this.open_osmid = ""
                 winCont.clearDatail()
                 geoCont.writePoiCircle()
                 resolve()
@@ -480,7 +477,6 @@ class CMapMaker {
 
             mapLibre.viewMiniMap(tags.country)
             winCont.setSidebar("view").then(() => {
-                this.detail = true
                 this.changeMode('map')
                 resolve()
             })

@@ -83,7 +83,7 @@
         "action": "ChangePoi" // ChangeMap:背景地図切り替え / ChangePoi:メニューに会ったOverpass名のPOIを表示
     },
     "listTable": {
-        "backgroundImage": "./image/bgimage.png",
+        "backgroundImage": "./image/bgimage.jpg",
         "height": 0.6, // リスト時の高さ(1を最大とした割合)
         "category": "menu", // カテゴリ選択 / activity:アクティビティリスト / tags:タグ / menu: タグベースの手動カテゴリ
         "target": "targets", // targets: / activity:google sheetsを表示 

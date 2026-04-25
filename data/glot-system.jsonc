@@ -8,8 +8,8 @@
         "en": "Edit Information"
     },
     "act_save": {
-        "ja": "サーバーへ保存",
-        "en": "Save to Server"
+        "ja": "データを保存",
+        "en": "Save Data"
     },
     "act_upload": {
         "ja": "アップロード",

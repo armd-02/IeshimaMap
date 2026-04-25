@@ -112,6 +112,7 @@
             "office": "事務所",
             "public": "公共建築",
             "temple": "寺院",
+            "train_station": "駅舎",
             "residential": "住居",
             "retail": "店舗",
             "roof": "屋根",
@@ -190,10 +191,8 @@
             "department_store": "百貨店",
             "doityourself": "ホームセンター",
             "dry_cleaning": "クリーニング店",
-            "electrical": "電気店（工具、部品類）",
             "electronics": "家電販売屋",
             "farm": "農場直売店",
-            "fishing": "釣具店",
             "florist": "花屋",
             "frozen_food": "冷凍食品専門店",
             "funeral_directors": "葬儀社",
@@ -311,6 +310,7 @@
             "apartment": "リゾートマンション",
             "attraction": "観光名所",
             "artwork": "アート作品",
+            "aquarium": "水族館",
             "gallery": "ギャラリー",
             "guest_house": "ゲストハウス",
             "hotel": "ホテル",
@@ -330,37 +330,29 @@
             "building": "歴史的建築物",
             "castle": "お城",
             "cannon": "大砲(展示)",
+            "heritage": "遺産",
+            "locomotive": "機関車(引退済み)",
             "memorial": "石碑",
             "monument": "記念建造物",
             "milestone": "一里塚",
-            "heritage": "遺産",
-            "tomb": "墓",
-            "locomotive": "機関車(引退済み)",
+            "ruins": "廃墟",
             "street_lamp": "照明（保存）",
+            "stone": "歴史的な岩/石",
+            "tomb": "墓",
             "wayside_shrine": "地蔵・道祖神",
             "wayside_cross": "十字架",
-            "vehicle": "車両(展示)"
-        },
-        "information": {
-            "board": "掲示板",
-            "terminal": "情報端末",
-            "audioguide": "音声ガイド",
-            "map": "地図",
-            "tactile_map": "触地図",
-            "guidepost": "道しるべ"
+            "vehicle": "車両(展示)",
+            "yes": "歴史的遺物"
         },
         "man_made": {
             "bridge": "橋",
-            "ceremonial_gate": "儀礼門",
+            "ceremonial_gate": "儀式用の門",
             "flagpole": "旗竿",
-            "fuel_pump": "燃料ポンプ",
-            "lamp": "灯籠",
-            "lighthouse": "灯台",
             "torii": "鳥居",
+            "lamp": "灯籠",
             "tower": "塔/鐘楼",
             "surveillance": "監視機器",
             "water_tap": "手洗い場",
-            "water_well": "井戸",
             "works": "工場"
         },
         "landuse": {
@@ -447,11 +439,6 @@
                 "streetart": "ストリートアート",
                 "street_art": "ストリートアート",
                 "azulejo": "アズレージョ"
-            }
-        },
-        "man_made": {
-            "ceremonial_gate": {
-                "torii": "鳥居"
             }
         },
         "healthcare": {
@@ -580,9 +567,13 @@
         },
         "tourism": {
             "information": {
-                "map": "地図版",
+                "audioguide": "音声ガイド",
                 "board": "案内板",
-                "office": "事務所"
+                "guidepost": "道しるべ",
+                "map": "地図",
+                "office": "事務所",
+                "tactile_map": "触地図",
+                "terminal": "情報端末"
             }
         }
     }
