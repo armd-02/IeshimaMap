@@ -56,6 +56,7 @@
             "TouristSpot": 12,
             "Restaurant": 12,
             "VendingMachine": 12,
+            "Park": 12,
             "Toilet": 12,
             "TouristInformation": 12,
             "Transportation": 12,
@@ -74,6 +75,7 @@
             "🏢観光地": "TouristSpot",
             "🍴飲食店": "Restaurant",
             "🧃自動販売機": "VendingMachine",
+            "🛝公園": "Park",
             "🚻トイレ": "Toilet",
             "💁観光案内": "TouristInformation",
             "🚲移動手段": "Transportation",
@@ -211,4 +213,6 @@
             }
         ]
     }
+
 }
+
