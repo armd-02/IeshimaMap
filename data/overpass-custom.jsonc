@@ -5,13 +5,15 @@
                 "nwr[\"amenity\"]",
                 "nwr[\"leisure\"]",
                 "nwr[\"tourism\"]",
-                "nwr[\"historic\"]"
+                "nwr[\"historic\"]",
+                "nwr[\"craft\"]",
             ],
             "tags": [
                 "amenity=place_of_worship",
                 "leisure=beach_resort",
                 "tourism=artwork",
-                "historic=wayside_shrine"
+                "historic=wayside_shrine",
+                "craft=signmaker",
             ],
             "expression": {
                 "poiView": true, // true時はアイコン表示
