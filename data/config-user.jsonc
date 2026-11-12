@@ -80,6 +80,7 @@
             "💁観光案内": "TouristInformation",
             "🚲移動手段": "Transportation",
             "🛍️商店": "Store",
+            "🏩宿泊施設": "Accommodation",
             "(アイコン非表示)": "nopoi"
         },
         "action": "ChangePoi" // ChangeMap:背景地図切り替え / ChangePoi:メニューに会ったOverpass名のPOIを表示
