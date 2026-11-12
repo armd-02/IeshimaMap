@@ -10,8 +10,11 @@
             ],
             "tags": [
                 "amenity=place_of_worship",
+                "amenity=community_centre",
                 "leisure=beach_resort",
                 "tourism=artwork",
+                "tourism=hotel",
+                "tourism=guest_house",
                 "historic=wayside_shrine",
                 "craft=signmaker",
             ],
@@ -123,7 +126,7 @@
                 "nwr[\"shop\"]"
             ],
             "tags": [
-                "shop"
+               "shop"
             ],
             "expression": {
                 "poiView": true, // true時はアイコン表示
@@ -131,6 +134,23 @@
                 "stroke": "#A06060",
                 "stroke-width": 1,
                 "fill-opacity": 0.5
+            }
+        },
+        "Accommodation": {
+            "overpass": [
+                "nwr[\"tourism\"]"
+            ],
+            "tags": [
+                "tourism=hotel",
+                "tourism=guest_house",
+            ],
+            "expression": {
+                "poiView": true, // true時はアイコン表示
+                "viewArea": true,
+                "stroke": "#A06060",
+                "stroke-width": 1,
+                "fill-opacity": 0.5
+
             }
         }
     }
